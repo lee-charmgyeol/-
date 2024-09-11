@@ -5,7 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("Hello, Sookmyong Electronics!\n");
+	int a, b; 
+	a = 10;
+	b = 20;
 	
+	
+	printf("Hello, Sookmyong Electronics!\n");
+	printf("%d + %d = %d \n",a, b, a+b);
 	return 0;
 }
