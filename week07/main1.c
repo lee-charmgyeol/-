@@ -10,6 +10,20 @@ void print_star()
 		printf("*");
 }
 
+/* 
+int main(void)
+{
+	for(i=0; i<10; i++)
+		printf("*");
+	for(i=0; i<10; i++)
+		printf("*");
+    for(i=0; i<10; i++)
+		printf("*");
+		
+	return 0;
+}
+*/
+
 int main(void) {
 	print_star();
 	print_star();
@@ -17,3 +31,5 @@ int main(void) {
 	
 	return 0;
 }
+
+

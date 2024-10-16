@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-void square(int a)
+void square1(int a)
 {
 	a = a * a;
 }
@@ -15,7 +15,7 @@ int square2(int a)
 int main(int argc, char *argv[]) {
 	int a=2;
 	
-	square(a);
+	square1(a);
 	printf("a=%i\n",a);
 	
 	
