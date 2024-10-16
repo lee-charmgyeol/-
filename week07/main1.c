@@ -3,15 +3,17 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+void print_star()
+{
+	int i;
+	for(i=0; i<10; i++)
+		printf("*");
+}
+
 int main(void) {
-	char c;
-	char c_next;
-	
-	printf("enter a character: ");
-	scanf("%c", &c);
-	
-	c_next = c + 1;
-	printf("the next character of %c (%d) is %c (%d)", c, c, c_next, c_next);
+	print_star();
+	print_star();
+	print_star();
 	
 	return 0;
 }
