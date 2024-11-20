@@ -24,6 +24,7 @@ void printMatrix(int c[ROWS][COLS])
 		printf("%d %d %d\n", c[i][0], c[i][1], c[i][2]);
 		
 }
+
 int main(int argc, char *argv[]) {
 	int A[ROWS][COLS] = {
 		{2, 3, 0},
